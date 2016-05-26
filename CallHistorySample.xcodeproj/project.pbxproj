@@ -191,6 +191,8 @@
 /* Begin PBXProject section */
 		13ADCA41141BBC81009C8B2C /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+			};
 			buildConfigurationList = 13ADCA44141BBC81009C8B2C /* Build configuration list for PBXProject "CallHistorySample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -313,8 +315,10 @@
 		13ADCA6C141BBC81009C8B2C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CallHistorySample/CallHistorySample-Prefix.pch";
+				GCC_VERSION = "";
 				INFOPLIST_FILE = "CallHistorySample/CallHistorySample-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -324,8 +328,10 @@
 		13ADCA6D141BBC81009C8B2C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CallHistorySample/CallHistorySample-Prefix.pch";
+				GCC_VERSION = "";
 				INFOPLIST_FILE = "CallHistorySample/CallHistorySample-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
